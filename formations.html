@@ -1,0 +1,332 @@
+<!doctype html>
+<html lang="en">
+    <head>
+
+        <meta charset="utf-8" />
+        <title>Accueil</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <!-- IMPORTANT !!!! a remplir après validation du site  -->
+        <meta name="description" content="Site description" />
+        <meta name="keywords" content="Your tags" />
+
+        <!-- favicon icon 
+             A changer   -->
+        <link rel="shortcut icon" href="images/">
+
+        <!-- Bootstrap -->
+        <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+        <!-- tobii css -->
+        <link href="assets/css/tobii.min.css" rel="stylesheet" type="text/css" />
+        <!-- Icons -->
+        <link href="assets/css/materialdesignicons.min.css" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v3.0.6/css/line.css">
+        <!-- Slider -->
+        <link rel="stylesheet" href="assets/css/tiny-slider.css"/>
+        <link href="assets/css/swiper.min.css" rel="stylesheet" type="text/css" />
+        <!-- Css Principal -->
+        <link href="assets/css/style.css" rel="stylesheet" type="text/css" id="color-opt" />
+        <link href="assets/css/colors/green.css" rel="stylesheet" id="color-opt">
+    
+    </head>
+
+    <body>
+
+        <!-- Loader -->
+        <div id="preloader">
+            <div id="status">
+                <div class="spinner">
+                    <div class="double-bounce1"></div>
+                    <div class="double-bounce2"></div>
+                </div>
+            </div>
+        </div> 
+        <!-- Loader End -->
+
+               <!-- Navbar STart -->
+        <header id="topnav" class="defaultscroll sticky">
+            <div class="container">
+                <!-- Logo container-->
+                <div>
+                    <a class="logo" href="index.html">
+                    <span class="logo-light-mode">
+                        <img src="assets/images/logo/logo1.png" class="l-dark" height="50" alt="">
+                        <img src="assets/images/logo/logo2.png" class="l-light" height="50" alt="">
+                    </span>
+                    <img src="assets/images/logo/logo.png" height="50" class="logo-dark-mode" alt="">
+                </a>
+                </div>
+                <!-- End Logo container-->
+                <div class="menu-extras">
+                    <div class="menu-item">
+                        <!-- Mobile menu toggle-->
+                        <a class="navbar-toggle" id="isToggle" onclick="toggleMenu()">
+                            <div class="lines">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </a>
+                        <!-- End mobile menu toggle-->
+                    </div>
+                </div>
+        
+                <div id="navigation">
+                    <!-- Navigation Menu-->   
+                    <ul class="navigation-menu nav-light nav-right">
+                        <li><a href="index.html" class="sub-menu-item">Accueil</a></li>
+                        <li><a href="apropos.html" class="sub-menu-item">A propos</a></li>
+                        <li class="has-submenu parent-parent-menu-item">
+                            <a href="services.html">Services</a><span class="menu-arrow"></span>
+                            <ul class="submenu">
+                                <li>
+                                    <ul>
+                                        <li><a href="s-integration.html" class="sub-menu-item">Security integration</a></li><hr>
+                                        <li><a href="s-management.html" class="sub-menu-item">Security management</a></li><hr>
+                                        <li><a href="d-ports.html" class="sub-menu-item">Digitalisation des ports</a></li>
+                                    </ul>
+                                </li>   
+                            </ul>
+                        </li>
+                        <li class="has-submenu parent-parent-menu-item">
+                            <a href="formations.html">Formations & Certifications</a> <span class="menu-arrow"></span>
+                            <ul class="submenu">
+                                <li>
+                                    <ul>
+                                        <li><a href="ec-council.html" class="sub-menu-item">SÉCURITÉ INFORMATIQUE
+                                            EC-COUNCIL</a></li> <hr>
+                                        <li><a href="base-donnees.html" class="sub-menu-item">BASE DE DONNÉES</a></li><hr>
+                                        <li><a href="cursus-metiers.html" class="sub-menu-item">CURSUS METIERS</a></li><hr>
+                                        <li><a href="m-securite.html" class="sub-menu-item">MANAGEMENT DE LA SÉCURITÉ
+                                            DE L'INFORMATION</a></li><hr>
+                                        <li><a href="reseaux-systems.html" class="sub-menu-item">INFRASTRUCTURES RESEAUX ET  SYSTEMES</a></li><hr>
+                                        <li><a href="gestion-administrative.html" class="sub-menu-item">GESTION ADMINISTRATIVE</a></li>
+                                    </ul>
+                                </li> 
+                            </ul>
+                        </li>
+                        <li><a href="contacts.html">Contacts</a></li>
+                    </ul><!--end navigation menu-->
+                </div><!--end navigation-->
+            </div><!--end container-->
+        </header><!--end header-->
+        <!-- Navbar End -->
+
+        <!-- Hero Start -->
+        <section class="bg-half bg-light d-table w-100">
+             <div class="bg-overlay"></div>
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-12 text-center">
+                        <div class="page-next-level">
+                            <div class="page-next">
+                                <nav aria-label="breadcrumb" class="d-inline-block">
+                                    <ul class="breadcrumb bg-white rounded shadow mb-0">
+                                        <li class="breadcrumb-item"><a href="index.html">Accueil</a></li>
+                                        <li class="breadcrumb-item active" aria-current="page">Formations & Certifications</li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                    </div>  <!--end col-->
+                </div><!--end row-->
+            </div> <!--end container-->
+        </section><!--end section-->
+        <div class="position-relative">
+            <div class="shape overflow-hidden text-white">
+                <svg viewBox="0 0 2880 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M0 48H1437.5H2880V0H2160C1442.5 52 720 0 720 0H0V48Z" fill="currentColor"></path>
+                </svg>
+            </div>
+        </div>
+        <!-- Hero End -->
+
+
+
+        <!--Blog Lists Start-->
+        <section class="section">
+            <div class="container">
+                <div class="row justify-content">
+                    <div class="col-12 ">
+                        <div class="section-title mb-4 pb-2">
+                            <h3 class="title mb-4 fw-bold">Ec-Council</h3>
+                        </div>
+                    </div><!--end col-->
+                </div><!--end row-->
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 mt-4 pt-2">
+                        <div class="card work-container work-modern overflow-hidden rounded border-0 shadow-lg">
+                            <div class="card-body p-0">
+                                <img src="assets/images/partenaires/cnd.png" class="img-fluid" alt="work-image">
+                                <div class="overlay-work bg-warning"></div>
+                                <div class="content">
+                                    <a href="https://www.eccouncil.org/programs/certified-ethical-hacker-ceh/" class="title text-white d-block fw-bold">Certifeid Ethical Hacker V11</a>
+                                    <small class="text-light">EC-COUNCIL</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+                    <div class="col-lg-4 col-md-6 mt-4 pt-2">
+                        <div class="card work-container work-modern overflow-hidden rounded border-0 shadow-lg">
+                            <div class="card-body p-0">
+                                <img src="assets/images/partenaires/cnD.jpg" class="img-fluid" alt="work-image">
+                                <div class="overlay-work bg-warning"></div>
+                                <div class="content">
+                                    <a href="https://www.eccouncil.org/programs/certified-network-security-course/" class="title text-white d-block fw-bold">Certified Network Defender</a>
+                                    <small class="text-light">EC-COUNCIL</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+                    <div class="col-lg-4 col-md-6 mt-4 pt-2">
+                        <div class="card work-container work-modern overflow-hidden rounded border-0 shadow-lg">
+                            <div class="card-body p-0">
+                                <img src="assets/images/partenaires/cscu.png" class="img-fluid" alt="work-image">
+                                <div class="overlay-work bg-warning"></div>
+                                <div class="content">
+                                    <a href="https://www.eccouncil.org/programs/certified-secure-computer-user-cscu/" class="title text-white d-block fw-bold">Certified Secure Computer User</a>
+                                    <small class="text-light">EC-COUNCIL</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+                </div><!--end row-->
+            </div>
+        </section><!--end section -->
+        <!--Blog Lists End-->
+        <section class="section bg-light">
+            <div class="container ">
+                <div class="row justify-content">
+                    <div class="col-12 ">
+                        <div class="section-title mb-4 pb-2">
+                            <h3 class="title mb-4 fw-bold">Base de Données</h3>
+                        </div>
+                    </div><!--end col-->
+                </div><!--end row-->
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 mt-4 pt-2">
+                        <div class="card work-container work-modern overflow-hidden rounded border-0 shadow-lg">
+                            <div class="card-body p-0">
+                                <img src="assets/images/partenaires/dba.jpg" class="img-fluid" alt="work-image">
+                                <div class="overlay-work bg-warning"></div>
+                                <div class="content">
+                                    <a href="https://www.eccouncil.org/programs/certified-ethical-hacker-ceh/" class="title text-white d-block fw-bold">Oracle Data Base Administration</a>
+                                    <small class="text-light">Oracle</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+                    <div class="col-lg-4 col-md-6 mt-4 pt-2">
+                        <div class="card work-container work-modern overflow-hidden rounded border-0 shadow-lg">
+                            <div class="card-body p-0">
+                                <img src="assets/images/partenaires/sql.png" class="img-fluid" alt="work-image">
+                                <div class="overlay-work bg-warning"></div>
+                                <div class="content">
+                                    <a href="https://www.eccouncil.org/programs/certified-network-security-course/" class="title text-white d-block fw-bold">Administration de Base de Données SQL Server 2016</a>
+                                    <small class="text-light">Microsoft</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+                    <div class="col-lg-4 col-md-6 mt-4 pt-2">
+                        <div class="card work-container work-modern overflow-hidden rounded border-0 shadow-lg">
+                            <div class="card-body p-0">
+                                <img src="assets/images/partenaires/MySQL.png" class="img-fluid" alt="work-image">
+                                <div class="overlay-work bg-warning"></div>
+                                <div class="content">
+                                    <a href="https://www.eccouncil.org/programs/certified-secure-computer-user-cscu/" class="title text-white d-block fw-bold">MySQL Administration et Optimisation</a>
+                                    <small class="text-light"></small>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+                </div><!--end row-->                
+            </div><!--end container-->
+        </section>
+
+
+
+
+
+        <!-- Pieds_haut Debut  -->
+        <footer class="footer bg-light">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-12 mb-0 mb-md-4 pb-0 pb-md-2">
+                        <a href="#" class="logo-footer">
+                            <img src="assets/images/logo/logo1.png" height="100" alt="">
+                        </a>
+                        <p class="mt-4">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto</p>
+                        <ul class="list-unstyled social-icon foot-social-icon mb-0 mt-4">
+                            <li class="list-inline-item"><a href="https://www.facebook.com/ivoprest" class="rounded"><i data-feather="facebook" class="fea icon-sm fea-social"></i></a></li>
+                            <li class="list-inline-item"><a href="https://twitter.com/ivoprest" class="rounded"><i data-feather="twitter" class="fea icon-sm fea-social"></i></a></li>
+                            <li class="list-inline-item"><a href="https://www.linkedin.com/company/ivoprest" class="rounded"><i data-feather="linkedin" class="fea icon-sm fea-social"></i></a></li>
+                        </ul><!--end icon-->
+                    </div><!--end col-->
+                    
+                    <div class="col-lg-2 col-md-4 col-12 mt-4 mt-sm-0 pt-2 pt-sm-0">
+                        <h5 class="text-dark footer-head">Menu</h5>
+                        <ul class="list-unstyled footer-list mt-4">
+                            <li><a href="index.html.html" class="text-foot"><i class="uil uil-angle-right-b ms-1"></i>Acceuil</a></li>
+                            <li><a href="apropos.html" class="text-foot"><i class="uil uil-angle-right-b ms-1"></i>A propos</a></li>
+                            <li><a href="services.html" class="text-foot"><i class="uil uil-angle-right-b ms-1"></i>Services</a></li>
+                            <li><a href="formations.html" class="text-foot"><i class="uil uil-angle-right-b ms-1"></i>Formations</a></li>
+                        </ul>
+                    </div><!--end col-->
+                    
+                    <div class="col-lg-2 col-md-4 col-12 mt-4 mt-sm-0 pt-2 pt-sm-0">
+                        <h5 class="text-dark footer-head">Gold Partners</h5>
+                        <ul class="list-unstyled footer-list mt-4">
+                            <li><a href="page-privacy.html" class="text-foot"><i class="uil uil-angle-right-b ms-1"></i> SOPHOS</a></li>
+                            <li><a href="documentation.html" class="text-foot"><i class="uil uil-angle-right-b ms-1"></i> PECB</a></li>
+                            <li><a href="changelog.html" class="text-foot"><i class="uil uil-angle-right-b ms-1"></i>KASPERSKI</a></li>
+                            <li><a href="components.html" class="text-foot"><i class="uil uil-angle-right-b ms-1"></i>VEEAM</a></li>
+                        </ul>
+                    </div><!--end col-->
+
+                    <div class="col-lg-4 col-md-4 col-12 mt-4 mt-sm-0 pt-2 pt-sm-0">
+                        <h5 class="text-dark footer-head">Contacts</h5>
+                        <ul class="list-unstyled footer-list mt-4">
+                            <li><a> Accueil</a>: +225 27 21 38 96 07</li>
+                            <li><a> Service Commerciale</a>: +225 27 21 38 96 10 </li>
+                            <li><a>Service Formation</a>: +225 27 21 38 96 09</li>
+                        </ul>
+                    </div><!--end col-->
+                </div><!--end row-->
+            </div><!--end container-->
+        </footer>
+        <!--Pieds_haut Fin-->
+
+        <!--Pieds_bas Debut-->
+        <footer class="footer footer-bar">
+            <div class="container text-center">
+                <div class="row align-items-center">
+                    <div class="col-sm-6">
+                        <div class="text-sm-start text-light">
+                            <p class="mb-0">© <script>document.write(new Date().getFullYear())</script>  Copyright<a href="ivoprest.com" target="_blank" class="text-reset"> Ivoprest</a>.</p>
+                        </div>
+                    </div><!--end col-->
+                </div><!--end row-->
+            </div><!--end container-->
+        </footer>
+        <!--Pieds_bas Fin -->
+
+        <!-- Retour en haut Debut -->
+        <a href="#" onclick="topFunction()" id="back-to-top" class="btn btn-icon btn-primary back-to-top"><i data-feather="arrow-up" class="icons"></i></a>
+        <!-- Retour en haut Fin -->
+
+        <!-- Back To Home End -->
+        <!-- javascript -->
+        <script src="assets/js/bootstrap.bundle.min.js"></script>
+        <!-- SLIDER -->
+        <script src="assets/js/tiny-slider.js "></script>
+        <script src="assets/js/swiper.min.js"></script>
+        <!-- tobii js -->
+        <script src="assets/js/tobii.min.js "></script>
+        <!-- Icons -->
+        <script src="assets/js/feather.min.js"></script>
+        <!-- Main Js -->
+        <script src="assets/js/plugins.init.js"></script><!--Note: All init js like tiny slider, counter, countdown, maintenance, lightbox, gallery, swiper slider, aos animation etc.-->
+        <script src="assets/js/app.js"></script><!--Note: All important javascript like page loader, menu, sticky menu, menu-toggler, one page menu etc. -->
+    </body>
+</html>

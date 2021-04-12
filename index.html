@@ -1,0 +1,664 @@
+<!doctype html>
+<html lang="en">
+    <head>
+
+        <meta charset="utf-8" />
+        <title>Accueil</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <!-- IMPORTANT !!!! a remplir après validation du site  -->
+        <meta name="description" content="Site description" />
+        <meta name="keywords" content="Your tags" />
+
+        <!-- favicon icon 
+             A changer   -->
+        <link rel="shortcut icon" href="images/">
+
+        <!-- Bootstrap -->
+        <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+        <!-- tobii css -->
+        <link href="assets/css/tobii.min.css" rel="stylesheet" type="text/css" />
+        <!-- Icons -->
+        <link href="assets/css/materialdesignicons.min.css" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v3.0.6/css/line.css">
+        <!-- Slider -->
+        <link rel="stylesheet" href="assets/css/tiny-slider.css"/>
+        <link href="assets/css/swiper.min.css" rel="stylesheet" type="text/css" />
+        <!-- Css Principal -->
+        <link href="assets/css/style.css" rel="stylesheet" type="text/css" id="color-opt" />
+        <link href="assets/css/colors/green.css" rel="stylesheet" id="color-opt">
+    
+    </head>
+
+    <body>
+
+        <!-- Loader -->
+        <div id="preloader">
+            <div id="status">
+                <div class="spinner">
+                    <div class="double-bounce1"></div>
+                    <div class="double-bounce2"></div>
+                </div>
+            </div>
+        </div> 
+        <!-- Loader End -->
+
+               <!-- Navbar STart -->
+        <header id="topnav" class="defaultscroll sticky">
+            <div class="container">
+                <!-- Logo container-->
+                <div>
+                    <a class="logo" href="index.html">
+                    <span class="logo-light-mode">
+                        <img src="assets/images/logo/logo1.png" class="l-dark" height="50" alt="">
+                        <img src="assets/images/logo/logo2.png" class="l-light" height="50" alt="">
+                    </span>
+                    <img src="assets/images/logo/logo.png" height="50" class="logo-dark-mode" alt="">
+                </a>
+                </div>
+                <!-- End Logo container-->
+                <div class="menu-extras">
+                    <div class="menu-item">
+                        <!-- Mobile menu toggle-->
+                        <a class="navbar-toggle" id="isToggle" onclick="toggleMenu()">
+                            <div class="lines">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </a>
+                        <!-- End mobile menu toggle-->
+                    </div>
+                </div>
+        
+                <div id="navigation">
+                    <!-- Navigation Menu-->   
+                    <ul class="navigation-menu nav-light nav-right">
+                        <li><a href="index.html" class="sub-menu-item">Accueil</a></li>
+                        <li><a href="apropos.html" class="sub-menu-item">A propos</a></li>
+                        <li class="has-submenu parent-parent-menu-item">
+                            <a href="services.html">Services</a><span class="menu-arrow"></span>
+                            <ul class="submenu">
+                                <li>
+                                    <ul>
+                                        <li><a href="s-integration.html" class="sub-menu-item">Security integration</a></li><hr>
+                                        <li><a href="s-management.html" class="sub-menu-item">Security management</a></li><hr>
+                                        <li><a href="d-ports.html" class="sub-menu-item">Digitalisation des ports</a></li>
+                                    </ul>
+                                </li>   
+                            </ul>
+                        </li>
+                        <li class="has-submenu parent-parent-menu-item">
+                            <a href="formations.html">Formations & Certifications</a> <span class="menu-arrow"></span>
+                            <ul class="submenu">
+                                <li>
+                                    <ul>
+                                        <li><a href="ec-council.html" class="sub-menu-item">SÉCURITÉ INFORMATIQUE
+                                            EC-COUNCIL</a></li> <hr>
+                                        <li><a href="base-donnees.html" class="sub-menu-item">BASE DE DONNÉES</a></li><hr>
+                                        <li><a href="cursus-metiers.html" class="sub-menu-item">CURSUS METIERS</a></li><hr>
+                                        <li><a href="m-securite.html" class="sub-menu-item">MANAGEMENT DE LA SÉCURITÉ
+                                            DE L'INFORMATION</a></li><hr>
+                                        <li><a href="reseaux-systems.html" class="sub-menu-item">INFRASTRUCTURES RESEAUX ET  SYSTEMES</a></li><hr>
+                                        <li><a href="gestion-administrative.html" class="sub-menu-item">GESTION ADMINISTRATIVE</a></li>
+                                    </ul>
+                                </li> 
+                            </ul>
+                        </li>
+                        <li><a href="contacts.html">Contacts</a></li>
+                    </ul><!--end navigation menu-->
+                </div><!--end navigation-->
+            </div><!--end container-->
+        </header><!--end header-->
+        <!-- Navbar End -->
+        <section class="home-slider position-relative ">
+            <div id="carouselExampleInterval" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="4000">
+                        <div class="bg-home d-flex align-items-center" style="background-image:url('assets/images/background/bg1.jpg')">
+                            
+                            <div class="container">
+                                <div class="row justify-content-center">
+                                    <div class="col-12 text-center">
+                                        <div class="title-heading text-white mt-4">
+                                            
+                                        </div>
+                                    </div><!--end col-->
+                                </div><!--end row-->
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item" data-bs-interval="4000">
+                        <div class="bg-home d-flex align-items-center" style="background-image:url('assets/images/background/bg001.jpg')">
+                            
+                            <div class="container">
+                                <div class="row justify-content-center">
+                                    <div class="col-12 text-center">
+                                        <div class="title-heading text-white mt-4">
+                                            
+                                        </div>
+                                    </div><!--end col-->
+                                </div><!--end row-->
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item" data-bs-interval="4000">
+                        <div class="bg-home d-flex align-items-center" style="background-image:url('assets/images/background/bg02.jpg')">
+                            
+                            <div class="container">
+                                <div class="row justify-content-center">
+                                    <div class="col-12 text-center">
+                                        <div class="title-heading text-white mt-4">
+                                            
+                                        </div>
+                                    </div><!--end col-->
+                                </div><!--end row-->
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="carousel-item" data-bs-interval="4000">
+                        <div class="bg-home d-flex align-items-center" style="background-image:url('assets/images/background/bg03.jpg')">
+                            
+                            <div class="container">
+                                <div class="row justify-content-center">
+                                    <div class="col-12 text-right">
+                                        <div class="title-heading text-white mt-4">
+                                            
+                                        </div>
+                                    </div><!--end col-->
+                                </div><!--end row-->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section><!--end section-->
+
+        <!-- FEATURES START -->
+        <section class="section">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-5 col-md-5 mt-4 pt-2 mt-sm-0 pt-sm-0">
+                        <div class="position-relative">
+                            <img src="assets/images/background/about2.png" class="img-fluid mx-auto" alt="">
+                            <div class="play-icon">
+                                <a href="https://www.youtube.com/watch?v=8--sG8WEDMw" data-type="youtube" data-id="8--sG8WEDMw" class="play-btn lightbox">
+                                    <i class="mdi mdi-play text-primary rounded-circle bg-white shadow"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+
+                    <div class="col-lg-7 col-md-7 mt-4 pt-2 mt-sm-0 pt-sm-0">
+                        <div class="section-title ms-lg-4">
+                            <h4 class="title mb-4">Nous Sommes une équipe <br> Expert </h4>
+                            <p><span class="text-primary fw-bold">IVOPREST</span> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+                            <a href="presentation.html" class="btn btn-primary mt-3">Découvrir<i class="mdi mdi-chevron-right"></i></a>
+                        </div>
+                    </div><!--end col-->
+                </div><!--end row-->
+            </div><!--end container-->
+
+            <div class="container mt-100 mt-60">
+                <div class="row align-items-center">
+                    <div class="col-md-6 order-1 order-md-2">
+                        <div class="ms-lg-5">
+                            <img src="assets/images/background/about3.png" class="img-fluid" alt="">
+                        </div>
+                    </div><!--end col-->
+
+                    <div class="col-md-6 order-2 order-md-1 mt-4 pt-2 mt-sm-0 pt-sm-0">
+                        <div class="section-title">
+                            <h4 class="title mb-4">Formation & Séminaires</h4>
+                            <p>Nous organisons des séances de formations avec chaque partenaire afin d'aider chaque employé à etre plus productif avec nos formations de qualité.</p>
+                            <p>Mais aussi séminaires pour présenter nos differents produits et surtout notre savoir faire aux differents partenaires et tous ceux qui désirent travailler avec nous.</p>
+                            <div class="mt-4">
+                                <a href="javascript:void(0)" class="btn btn-pills btn-soft-primary">Découvrir</a>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+                </div><!--end row-->
+            </div><!--end container--> 
+            <!-- Cta End -->
+        </section><!--end section-->
+
+
+        <!-- Section Start -->
+        <section class="section bg-light">
+         <!-- Cta start -->
+            <div class="container">
+
+                <div class="row justify-content-center">
+                    <div class="col-12 text-center">
+                        <div class="section-title    pb-2">
+                            <h4 class="title fw-bold">SOLUTIONS</h4>
+                        </div>
+                    </div><!--end col-->
+                </div><!--end row-->
+
+                <div class="row justify-content-center">
+                    <div class="col-lg-4 col-md-6 text-center col-12 mt-4 pt-2">
+                        <div class="card features fea-primary rounded p-4 bg-white position-relative overflow-hidden border-0">
+                            <span class="h1 icon2 text-primary">
+                                <i class="uil uil-lock-access"></i>
+                            </span>
+                            <div class="card-body p-0 content ">
+                                <h5>Security integration</h5>
+                                <p class="para text-muted mb-0">Sed ut perspiciatis unde omnis iste natus error sit voluptatem.</p>
+
+                                <a href="javascript:void(0)" class="btn btn-pills btn-soft-success mt-4" data-bs-toggle="modal" data-bs-target="javascript:void(0)">voir</a>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+                    <div class="col-lg-4 col-md-6 text-center col-12 mt-4 pt-2">
+                        <div class="card features fea-primary rounded p-4 bg-white position-relative overflow-hidden border-0">
+                            <span class="h1 icon2 text-primary">
+                                <i class="uil uil-shield-plus"></i> 
+                            </span>
+                            <div class="card-body p-0 content">
+                                <h5>Security management</h5>
+                                <p class="para text-muted mb-0">Sed ut perspiciatis unde omnis iste natus error sit voluptatem</p>
+
+                                <a href="javascript:void(0)" class="btn btn-pills btn-soft-success mt-4">voir</a>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+                    
+                    <div class="col-lg-4 col-md-6 text-center col-12 mt-4 pt-2">
+                        <div class="card features fea-primary rounded p-4 bg-white position-relative overflow-hidden border-0">
+                            <span class="h1 icon2 text-primary">
+                                <i class="uil uil-ship"></i>
+                            </span>
+                            <div class="card-body p-0 content">
+                                <h5>Digitalisation portuaire</h5>
+                                <p class="para text-muted mb-0">It is a long established fact that a reader layout.</p>
+
+                                <a href="javascript:void(0)" class="btn btn-pills btn-soft-success mt-4">voir</a>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+                </div><!--end row-->
+            </div><!--end container-->
+        </section><!--end section-->
+        <!-- Section End -->
+        <!-- Start -->
+        <section class="section">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-12 text-center">
+                        <div class="section-title mb-4 pb-2">
+                            <h4 class="title mb-4 fw-bold">FORMATIONS & CERTIFICATIONS</h4>
+                            <p class=" para-desc mx-auto mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        </div>
+                    </div><!--end col-->
+                </div><!--end row-->
+
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 col-12 mt-4 pt-2">
+                        <div class="card categories overflow-hidden rounded shadow border-0">
+                            <img src="assets/images/cours/a1.jpg" class="img-fluid" alt="">
+                            <div class="card-body">
+                                <ul class="list-unstyled d-flex justify-content-between mb-0">
+                                    <li><a href="javascript:void(0)" class="title h6 text-dark">Sécurité informatique EC-COUNCIL</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+                    
+                    <div class="col-lg-4 col-md-6 col-12 mt-4 pt-2">
+                        <div class="card categories overflow-hidden rounded shadow border-0">
+                            <img src="assets/images/cours/a1.jpg" class="img-fluid" alt="">
+                            <div class="card-body">
+                                <ul class="list-unstyled d-flex justify-content-between mb-0">
+                                    <li><a href="javascript:void(0)" class="title h6 text-dark">Base de Données</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+                    
+                    <div class="col-lg-4 col-md-6 col-12 mt-4 pt-2">
+                        <div class="card categories overflow-hidden rounded shadow border-0">
+                            <img src="assets/images/cours/a1.jpg" class="img-fluid" alt="">
+                            <div class="card-body">
+                                <ul class="list-unstyled d-flex justify-content-between mb-0">
+                                    <li><a href="javascript:void(0)" class="title h6 text-dark">Cursus Métier</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+                    
+                    <div class="col-lg-4 col-md-6 col-12 mt-4 pt-2">
+                        <div class="card categories overflow-hidden rounded shadow border-0">
+                            <img src="assets/images/cours/a1.jpg" class="img-fluid" alt="">
+                            <div class="card-body">
+                                <ul class="list-unstyled d-flex justify-content-between mb-0">
+                                    <li><a href="javascript:void(0)" class="title h6 text-dark">Information Security Management</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+
+                    <div class="col-lg-4 col-md-6 col-12 mt-4 pt-2">
+                        <div class="card categories overflow-hidden rounded shadow border-0">
+                            <img src="assets/images/cours/a1.jpg" class="img-fluid" alt="">
+                            <div class="card-body">
+                                <ul class="list-unstyled d-flex justify-content-between mb-0">
+                                    <li><a href="javascript:void(0)" class="title h6 text-dark">Network and System Infrastructure</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+                    
+                    <div class="col-lg-4 col-md-6 col-12 mt-4 pt-2">
+                        <div class="card categories overflow-hidden rounded shadow border-0">
+                            <img src="assets/images/cours/a1.jpg" class="img-fluid" alt="">
+                            <div class="card-body">
+                                <ul class="list-unstyled d-flex justify-content-between mb-0">
+                                    <li><a href="javascript:void(0)" class="title h6 text-dark">Administrative Management</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div><!--end col-->
+                </div><!--end row-->
+                <div class="row mt-4">
+                    <div class="col-12 text-center pt-2">
+                        <a href="formations.html" class="btn btn-primary">Voir plus<i class="uil uil-angle-right-b align-middle"></i></a>
+                    </div>
+                </div>
+            <!-- Companies End -->
+            </div><!--end container-->
+            <!-- Testi end -->
+        </section><!--end section-->
+
+
+        <section>
+
+            <div class="container-fluid mt-4">
+                <div class="rounded-md shadow-md py-5 position-relative" style="background: url('assets/images/background/contact2.jpg') center center;">
+                    <div class="bg-overlay rounded-md"></div>
+                    <div class="container py-5">
+                        <div class="row justify-content-center">
+                            <div class="col-12">
+                                <div class="section-title text-center">
+                                    <h2 class="fw-bold text-white title-dark mb-4 pb-2">Accedez a notre plateforme <br> Elearning en 1 clic</h2>
+                                    <a href="https://ivop-learing.moodlecloud.com" class="btn btn-primary">Classe virtuelle <i data-feather="arrow-right" class="fea icon-sm"></i></a>
+                                </div>
+                            </div><!--end col-->
+                        </div><!--end row-->
+                    </div><!--end container-->
+                </div><!--end slide-->
+        </section>
+
+
+
+        <!-- Partenaires Debut -->
+        <section class="section ">
+
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-12 text-center">
+                        <div class="section-title mb-4 pb-2">
+                            <h4 class="title mb-4 fw-bold">PARTENAIRES</h4>
+                        </div>
+                    </div><!--end col-->
+                </div><!--end row-->
+
+                <div class="row">
+                    <div class="col-12 ">
+                        <div class="tiny-four-item">
+                            <div class="tiny-slide text-center">
+                                <div class="client-testi rounded">
+                                    <img src="assets/images/partenaires/belife.png" class="img-fluid mx-auto" height="50" alt="">
+                                </div>
+                            </div>
+
+                            <div class="tiny-slide text-center">
+                                <div class="client-testi rounded">
+                                    <img src="assets/images/partenaires/bollore.png" class="img-fluid  mx-auto" height="50" alt="">
+                                    
+                                </div>
+                            </div>
+
+                            <div class="tiny-slide text-center">
+                                <div class="client-testi rounded">
+                                    <img src="assets/images/partenaires/education.png" class="img-fluid mx-auto"  height="50" alt="">
+                                    
+                                </div>
+                            </div>
+
+                            <div class="tiny-slide text-center">
+                                <div class="client-testi rounded">
+                                    <img src="assets/images/partenaires/ips.png" class="img-fluid mx-auto"  height="50" alt="">
+                                </div>
+                            </div>
+                            <div class="tiny-slide text-center">
+                                <div class="client-testi rounded">
+                                    <img src="assets/images/partenaires/kasperky.jpg" class="img-fluid mx-auto"  height="50" alt="">
+                                </div>
+                            </div>
+                            <div class="tiny-slide text-center">
+                                <div class="client-testi rounded">
+                                    <img src="assets/images/partenaires/macaci.png" class="img-fluid  mx-auto"  height="50" alt="">
+                                </div>
+                            </div> 
+                            <div class="tiny-slide text-center">
+                                <div class="client-testi rounded">
+                                    <img src="assets/images/partenaires/microfinance.png" class="img-fluid  mx-auto"  height="50" alt="">
+                                </div>
+                            </div>
+                            <div class="tiny-slide text-center">
+                                <div class="client-testi rounded">
+                                    <img src="assets/images/partenaires/ministeredelaposte.png" class="img-fluid  mx-auto"  height="50" alt="">
+                                </div>
+                            </div>
+                            <div class="tiny-slide text-center">
+                                <div class="client-testi rounded">
+                                    <img src="assets/images/partenaires/nktech.png" class="img-fluid  mx-auto"  height="200" alt="">
+                                </div>
+                            </div>
+                            <div class="tiny-slide text-center">
+                                <div class="client-testi rounded">
+                                    <img src="assets/images/partenaires/olam.png" class="img-fluid  mx-auto"  height="200" alt="">
+                                </div>
+                            </div>
+                            <div class="tiny-slide text-center">
+                                <div class="client-testi rounded">
+                                    <img src="assets/images/partenaires/pearson_vue.jpg" class="img-fluid  mx-auto"  height="200" alt="">
+                                </div>
+                            </div>   
+                            <div class="tiny-slide text-center">
+                                <div class="client-testi rounded">
+                                    <img src="assets/images/partenaires/pecb.png" class="  mx-auto"  height="200" alt="">
+                                </div>
+                            </div> 
+
+                        <div class="tiny-slide text-center">
+                                <div class="client-testi rounded">
+                                    <img src="assets/images/partenaires/pecb2.jpg" class=" img-fluid mx-auto"  height="200" alt="">
+                                </div>
+                        </div>
+                        <div class="tiny-slide text-center">
+                                <div class="client-testi rounded">
+                                    <img src="assets/images/partenaires/prometic.jpg" class=" img-fluid  mx-auto"  height="200" alt="">
+                                </div>
+                        </div> 
+                        <div class="tiny-slide text-center">
+                                <div class="client-testi rounded">
+                                    <img src="assets/images/partenaires/snedai.png" class=" img-fluid  mx-auto"  height="200" alt="">
+                                </div>
+                        </div>
+                        <div class="tiny-slide text-center">
+                                <div class="client-testi rounded">
+                                    <img src="assets/images/partenaires/sonabel.png" class=" img-fluid  mx-auto"  height="200" alt="">
+                                </div>
+                        </div>
+                        <div class="tiny-slide text-center">
+                                <div class="client-testi rounded">
+                                    <img src="assets/images/partenaires/spf.png" class=" img-fluid  mx-auto"  height="200" alt="">
+                                </div>
+                        </div> 
+                        </div>
+                    </div><!--end col-->
+                </div><!--end row-->
+            </div><!--end container-->
+
+
+            <div class="container mt-5">
+                <div class="row justify-content-center mt-4">
+                    <div class="col-12 text-center">
+                        <div class="section-title mb-4 pb-2">
+                            <h4 class="title mb-4 fw-bold">CONTACTS</h4>
+                        </div>
+                    </div><!--end col-->
+                </div><!--end row-->
+                <div class="row">
+                    <div class="col-lg-8 col-md-6 p-0 ps-md-3 pe-md-3">
+                        <div class="card map map-height-two rounded map-gray border-0">
+                            <iframe src="https://maps.google.com/maps?q=ivoprest&t=&z=13&ie=UTF8&iwloc=&output=embed" style="border:0" class="rounded" allowfullscreen></iframe>
+                        </div>
+                    </div><!--end col-->
+
+                    <div class="col-lg-4 col-md-6 mt-4 mt-sm-0 pt-2 pt-sm-0">
+                        <div class="card rounded shadow border-0">
+                            <div class="card-body py-5">
+                                <h5 class="card-title">Contactez nous </h5>
+
+                                <div class="custom-form mt-4">
+                                    <div id="message"></div>
+                                    <form method="post" action="javascript:void(0)" name="contact-form" id="contact-form">
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <div class="mb-3">
+                                                    <label class="form-label">Nom <span class="text-danger">*</span></label>
+                                                    <div class="form-icon position-relative">
+                                                        <i data-feather="user" class="fea icon-sm icons"></i>
+                                                        <input name="name" id="name" type="text" class="form-control ps-5" placeholder="Nom :">
+                                                    </div>
+                                                </div>
+                                            </div><!--end col-->
+                                            <div class="col-md-12">
+                                                <div class="mb-3">
+                                                    <label class="form-label">Email <span class="text-danger">*</span></label>
+                                                    <div class="form-icon position-relative">
+                                                        <i data-feather="mail" class="fea icon-sm icons"></i>
+                                                        <input name="email" id="email" type="email" class="form-control ps-5" placeholder="Email :">
+                                                    </div>
+                                                </div> 
+                                            </div><!--end col-->
+                                            <div class="col-md-12">
+                                                <div class="mb-3">
+                                                    <label class="form-label">Message</label>
+                                                    <div class="form-icon position-relative">
+                                                        <i data-feather="message-circle" class="fea icon-sm icons"></i>
+                                                        <textarea name="comments" id="comments" rows="4" class="form-control ps-5" placeholder="Message :"></textarea>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div><!--end row-->
+                                        <div class="row">
+                                            <div class="col-sm-12 text-center">
+                                                <div class="d-grid">
+                                                    <input type="submit" id="submit" name="send" class="submitBnt btn btn-primary" value="Envoyer">
+                                                    <div id="simple-msg"></div>
+                                                </div>
+                                            </div><!--end col-->
+                                        </div><!--end row-->
+                                    </form><!--end form-->
+                                </div><!--end custom-form-->
+                            </div>
+                        </div>
+                    </div><!--end col-->
+                </div><!--end row-->
+            </div><!--end container-->
+        </section>
+        <!-- Partenaires Fin -->
+
+
+
+
+
+        <!-- Pieds_haut Debut  -->
+        <footer class="footer bg-light">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-12 mb-0 mb-md-4 pb-0 pb-md-2">
+                        <a href="#" class="logo-footer">
+                            <img src="assets/images/logo/logo1.png" height="100" alt="">
+                        </a>
+                        <p class="mt-4">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto</p>
+                        <ul class="list-unstyled social-icon foot-social-icon mb-0 mt-4">
+                            <li class="list-inline-item"><a href="https://www.facebook.com/ivoprest" class="rounded"><i data-feather="facebook" class="fea icon-sm fea-social"></i></a></li>
+                            <li class="list-inline-item"><a href="https://twitter.com/ivoprest" class="rounded"><i data-feather="twitter" class="fea icon-sm fea-social"></i></a></li>
+                            <li class="list-inline-item"><a href="https://www.linkedin.com/company/ivoprest" class="rounded"><i data-feather="linkedin" class="fea icon-sm fea-social"></i></a></li>
+                        </ul><!--end icon-->
+                    </div><!--end col-->
+                    
+                    <div class="col-lg-2 col-md-4 col-12 mt-4 mt-sm-0 pt-2 pt-sm-0">
+                        <h5 class="text-dark footer-head">Menu</h5>
+                        <ul class="list-unstyled footer-list mt-4">
+                            <li><a href="index.html.html" class="text-foot"><i class="uil uil-angle-right-b ms-1"></i>Acceuil</a></li>
+                            <li><a href="apropos.html" class="text-foot"><i class="uil uil-angle-right-b ms-1"></i>A propos</a></li>
+                            <li><a href="services.html" class="text-foot"><i class="uil uil-angle-right-b ms-1"></i>Services</a></li>
+                            <li><a href="formations.html" class="text-foot"><i class="uil uil-angle-right-b ms-1"></i>Formations</a></li>
+                        </ul>
+                    </div><!--end col-->
+                    
+                    <div class="col-lg-2 col-md-4 col-12 mt-4 mt-sm-0 pt-2 pt-sm-0">
+                        <h5 class="text-dark footer-head">Gold Partners</h5>
+                        <ul class="list-unstyled footer-list mt-4">
+                            <li><a href="page-privacy.html" class="text-foot"><i class="uil uil-angle-right-b ms-1"></i> SOPHOS</a></li>
+                            <li><a href="documentation.html" class="text-foot"><i class="uil uil-angle-right-b ms-1"></i> PECB</a></li>
+                            <li><a href="changelog.html" class="text-foot"><i class="uil uil-angle-right-b ms-1"></i>KASPERSKI</a></li>
+                            <li><a href="components.html" class="text-foot"><i class="uil uil-angle-right-b ms-1"></i>VEEAM</a></li>
+                        </ul>
+                    </div><!--end col-->
+
+                    <div class="col-lg-4 col-md-4 col-12 mt-4 mt-sm-0 pt-2 pt-sm-0">
+                        <h5 class="text-dark footer-head">Contacts</h5>
+                        <ul class="list-unstyled footer-list mt-4">
+                            <li><a> Accueil</a>: +225 27 21 38 96 07</li>
+                            <li><a> Service Commerciale</a>: +225 27 21 38 96 10 </li>
+                            <li><a>Service Formation</a>: +225 27 21 38 96 09</li>
+                        </ul>
+                    </div><!--end col-->
+                </div><!--end row-->
+            </div><!--end container-->
+        </footer>
+        <!--Pieds_haut Fin-->
+
+        <!--Pieds_bas Debut-->
+        <footer class="footer footer-bar">
+            <div class="container text-center">
+                <div class="row align-items-center">
+                    <div class="col-sm-6">
+                        <div class="text-sm-start text-light">
+                            <p class="mb-0">© <script>document.write(new Date().getFullYear())</script>  Copyright<a href="ivoprest.com" target="_blank" class="text-reset"> Ivoprest</a>.</p>
+                        </div>
+                    </div><!--end col-->
+                </div><!--end row-->
+            </div><!--end container-->
+        </footer>
+        <!--Pieds_bas Fin -->
+
+        <!-- Retour en haut Debut -->
+        <a href="#" onclick="topFunction()" id="back-to-top" class="btn btn-icon btn-primary back-to-top"><i data-feather="arrow-up" class="icons"></i></a>
+        <!-- Retour en haut Fin -->
+
+        <!-- Back To Home End -->
+        <!-- javascript -->
+        <script src="assets/js/bootstrap.bundle.min.js"></script>
+        <!-- SLIDER -->
+        <script src="assets/js/tiny-slider.js "></script>
+        <script src="assets/js/swiper.min.js"></script>
+        <!-- tobii js -->
+        <script src="assets/js/tobii.min.js "></script>
+        <!-- Icons -->
+        <script src="assets/js/feather.min.js"></script>
+        <!-- Main Js -->
+        <script src="assets/js/plugins.init.js"></script><!--Note: All init js like tiny slider, counter, countdown, maintenance, lightbox, gallery, swiper slider, aos animation etc.-->
+        <script src="assets/js/app.js"></script><!--Note: All important javascript like page loader, menu, sticky menu, menu-toggler, one page menu etc. -->
+    </body>
+</html>

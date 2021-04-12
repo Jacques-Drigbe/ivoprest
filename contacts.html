@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="en">
+    <head>
+
+        <meta charset="utf-8" />
+        <title>Accueil</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <!-- IMPORTANT !!!! a remplir après validation du site  -->
+        <meta name="description" content="Site description" />
+        <meta name="keywords" content="Your tags" />
+
+        <!-- favicon icon 
+             A changer   -->
+        <link rel="shortcut icon" href="images/">
+
+        <!-- Bootstrap -->
+        <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+        <!-- tobii css -->
+        <link href="assets/css/tobii.min.css" rel="stylesheet" type="text/css" />
+        <!-- Icons -->
+        <link href="assets/css/materialdesignicons.min.css" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v3.0.6/css/line.css">
+        <!-- Slider -->
+        <link rel="stylesheet" href="assets/css/tiny-slider.css"/>
+        <link href="assets/css/swiper.min.css" rel="stylesheet" type="text/css" />
+        <!-- Css Principal -->
+        <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
+    
+    </head>
+
+    <body>
+
+        <!-- Loader -->
+        <div id="preloader">
+            <div id="status">
+                <div class="spinner">
+                    <div class="double-bounce1"></div>
+                    <div class="double-bounce2"></div>
+                </div>
+            </div>
+        </div> 
+        <!-- Loader End -->
+
+               <!-- Navbar STart -->
+        <header id="topnav" class="defaultscroll sticky">
+            <div class="container">
+                <!-- Logo container-->
+                <div>
+                    <a class="logo" href="index.html">
+                    <span class="logo-light-mode">
+                        <img src="assets/images/logo/logo1.png" class="l-dark" height="50" alt="">
+                        <img src="assets/images/logo/logo1.png" class="l-light" height="50" alt="">
+                    </span>
+                    <img src="assets/images/logo/logo1.png" height="50" class="logo-dark-mode" alt="">
+                </a>
+                </div>
+                <!-- End Logo container-->
+                <div class="menu-extras">
+                    <div class="menu-item">
+                        <!-- Mobile menu toggle-->
+                        <a class="navbar-toggle" id="isToggle" onclick="toggleMenu()">
+                            <div class="lines">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </a>
+                        <!-- End mobile menu toggle-->
+                    </div>
+                </div>
+        
+                <div id="navigation">
+                    <!-- Navigation Menu-->   
+                    <ul class="navigation-menu nav-dark nav-right">
+                        <li><a href="index.html" class="sub-menu-item">Accueil</a></li>
+                        <li><a href="apropos.html" class="sub-menu-item">A propos</a></li>
+                        <li class="has-submenu parent-parent-menu-item">
+                            <a href="services.html">Services</a><span class="menu-arrow"></span>
+                            <ul class="submenu">
+                                <li>
+                                    <ul>
+                                        <li><a href="s-integration.html" class="sub-menu-item">Security integration</a></li><hr>
+                                        <li><a href="s-management.html" class="sub-menu-item">Security management</a></li><hr>
+                                        <li><a href="d-ports.html" class="sub-menu-item">Digitalisation des ports</a></li>
+                                    </ul>
+                                </li>   
+                            </ul>
+                        </li>
+                        <li class="has-submenu parent-parent-menu-item">
+                            <a href="formations.html">Formations & Certifications</a> <span class="menu-arrow"></span>
+                            <ul class="submenu">
+                                <li>
+                                    <ul>
+                                        <li><a href="ec-council.html" class="sub-menu-item">SÉCURITÉ INFORMATIQUE
+                                            EC-COUNCIL</a></li> <hr>
+                                        <li><a href="base-donnees.html" class="sub-menu-item">BASE DE DONNÉES</a></li><hr>
+                                        <li><a href="cursus-metiers.html" class="sub-menu-item">CURSUS METIERS</a></li><hr>
+                                        <li><a href="m-securite.html" class="sub-menu-item">MANAGEMENT DE LA SÉCURITÉ
+                                            DE L'INFORMATION</a></li><hr>
+                                        <li><a href="reseaux-systems.html" class="sub-menu-item">INFRASTRUCTURES RESEAUX ET  SYSTEMES</a></li><hr>
+                                        <li><a href="gestion-administrative.html" class="sub-menu-item">GESTION ADMINISTRATIVE</a></li>
+                                    </ul>
+                                </li> 
+                            </ul>
+                        </li>
+                        <li><a href="contacts.html">Contacts</a></li>
+                    </ul><!--end navigation menu-->
+                </div><!--end navigation-->
+            </div><!--end container-->
+        </header><!--end header-->
+        <!-- Navbar End -->
+
+
+        <!-- Hero Start -->
+        <section class="vh-100 d-flex align-items-center" style="background: url('assets/images/background/img.jpg') center center;">
+            <div class="bg-overlay bg-overlay-white"></div>
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6 offset-lg-5 col-md-7 offset-md-5">
+                        <div class="title-heading mt-5 pt-4 ">
+                            <h1 class="heading">Diponible pour tous vos besoins</h1>
+                            
+                            <div class="d-flex contact-detail align-items-center mt-3">
+                                <div class="icon">
+                                    <i data-feather="phone" class="fea icon-m-md text-dark me-3"></i>
+                                </div>
+                                <div class="flex-1 content">
+
+                                    <h5 class="title fw-bold mb-0">Acceuil</h5> 
+                                    <a href="tel:+2252721389607" class="text-primary">+225 27 21 38 96 07</a><br>
+                                    <a href="mailto:contact@example.com" class="text-primary">contact@example.com</a>
+                                </div>
+
+                            </div>
+
+                            <div class="d-flex contact-detail align-items-center mt-3">
+                                <div class="icon">
+                                    <i data-feather="phone" class="fea icon-m-md text-dark me-3"></i>
+                                </div>
+                                <div class="flex-1 content">
+                                    <h5 class="title fw-bold mb-0">Services commerciale</h5> 
+                                    <a href="tel:+2252721389610" class="text-primary">+225 27 21 38 96 10</a> <br>
+                                     <a href="mailto:contact@example.com" class="text-primary">contact@example.com</a>
+                                </div>
+                            </div>
+
+                            <div class="d-flex contact-detail align-items-center mt-3">
+                                <div class="icon">
+                                    <i data-feather="phone" class="fea icon-m-md text-dark me-3"></i>
+                                </div>
+                                <div class="flex-1 content">
+                                    <h5 class="title fw-bold mb-0">Service formation</h5> 
+                                    <a href="tel:+2252721389609" class="text-primary">+225 27 21 38 96 09</a><br>
+                                    <a href="mailto:contact@example.com" class="text-primary">contact@example.com</a>
+                                </div>
+                            </div>
+
+                            
+                            <div class="d-flex contact-detail align-items-center mt-3">
+                                <div class="icon">
+                                    <i data-feather="map-pin" class="fea icon-m-md text-dark me-3"></i>
+                                </div>
+                                <div class="flex-1 content">
+                                    <h5 class="title fw-bold mb-0">Localisation</h5>
+                                    <a href="https://maps.google.com/maps?q=ivoprest&t=&z=13&ie=UTF8&iwloc=&output=embed" data-type="iframe" class="video-play-icon text-primary lightbox">Google map</a>
+                                </div>
+                            </div>
+                            <ul class="list-unstyled social-icon mb-0 mt-4">
+                                <li class="list-inline-item"><a href="https://www.facebook.com/ivoprest" class="rounded"><i data-feather="facebook" class="fea icon-sm fea-social"></i></a></li>
+                                <li class="list-inline-item"><a href="https://twitter.com/ivoprest" class="rounded"><i data-feather="twitter" class="fea icon-sm fea-social"></i></a></li>
+                                <li class="list-inline-item"><a href="https://www.linkedin.com/company/ivoprest" class="rounded"><i data-feather="linkedin" class="fea icon-sm fea-social"></i></a></li>
+                            </ul><!--end icon-->
+                        </div>
+                    </div><!--end col-->
+                </div><!--end row-->
+            </div><!--end container--> 
+        </section><!--end section-->
+        <!-- Hero End -->
+
+
+
+        <!--Pieds_bas Debut-->
+        <footer class="footer footer-bar">
+            <div class="container text-center">
+                <div class="row align-items-center">
+                    <div class="col-sm-6">
+                        <div class="text-sm-start text-light">
+                            <p class="mb-0">© <script>document.write(new Date().getFullYear())</script>  Copyright<a href="ivoprest.com" target="_blank" class="text-reset"> Ivoprest</a>.</p>
+                        </div>
+                    </div><!--end col-->
+                </div><!--end row-->
+            </div><!--end container-->
+        </footer>
+        <!--Pieds_bas Fin -->
+
+        <!-- Retour en haut Debut -->
+        <a href="#" onclick="topFunction()" id="back-to-top" class="btn btn-icon btn-primary back-to-top"><i data-feather="arrow-up" class="icons"></i></a>
+        <!-- Retour en haut Fin -->
+
+        <!-- Back To Home End -->
+        <!-- javascript -->
+        <script src="assets/js/bootstrap.bundle.min.js"></script>
+        <!-- SLIDER -->
+        <script src="assets/js/tiny-slider.js "></script>
+        <script src="assets/js/swiper.min.js"></script>
+        <!-- tobii js -->
+        <script src="assets/js/tobii.min.js "></script>
+        <!-- Icons -->
+        <script src="assets/js/feather.min.js"></script>
+        <!-- Main Js -->
+        <script src="assets/js/plugins.init.js"></script><!--Note: All init js like tiny slider, counter, countdown, maintenance, lightbox, gallery, swiper slider, aos animation etc.-->
+        <script src="assets/js/app.js"></script><!--Note: All important javascript like page loader, menu, sticky menu, menu-toggler, one page menu etc. -->
+    </body>
+</html>
